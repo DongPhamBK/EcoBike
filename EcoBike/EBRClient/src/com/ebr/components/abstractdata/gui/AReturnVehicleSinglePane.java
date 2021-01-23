@@ -1,0 +1,68 @@
+package com.ebr.components.abstractdata.gui;
+
+import java.awt.Component;
+import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import javax.swing.JPanel;
+//class nay ok roi
+@SuppressWarnings("serial")
+public abstract class AReturnVehicleSinglePane<T> extends JPanel {
+    protected T t;
+
+    protected GridBagLayout layout;
+    protected GridBagConstraints c;
+
+    private JPanel panel;
+
+    public AReturnVehicleSinglePane() {
+        buildControls();
+    }
+
+    public AReturnVehicleSinglePane(T t) {
+        this();
+        this.t = t;
+
+        displayData();
+    }
+
+    public void buildControls() {
+        layout = new GridBagLayout();
+        this.setLayout(layout);
+        c = new GridBagConstraints();
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.weightx = 1;
+    }
+
+    public abstract void displayData();
+
+    public void addDataHandlingComponent(Component component) {
+        if (panel == null) {
+            int row = getLastRowIndex();
+            c.gridx = 0;
+            c.gridy = row;
+            panel = new JPanel();
+            this.add(panel, c);
+            panel.setLayout(new FlowLayout(FlowLayout.LEFT));
+            //panel.setLayout(new FlowLayout(FlowLayout.CENTER));
+        }
+
+        panel.add(component);
+    }
+    //important
+    public void updateData(T t) {
+        this.t = t;
+        displayData();
+    }
+
+    public T getData() {
+        return this.t;
+    }
+
+    protected int getLastRowIndex() {
+        layout.layoutContainer(this);
+        int[][] dim = layout.getLayoutDimensions();
+        int rows = dim[1].length;
+        return rows;
+    }
+}

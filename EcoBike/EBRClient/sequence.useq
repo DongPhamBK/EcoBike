@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.4" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="com.ebr.app.user.EBRUser" project="EBRClient" 
+    file="/EBRClient/src/com/ebr/app/user/EBRUser.java" binary="false" label="ebrUser" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="211" y="0"/>    
+    <execution id="2">      
+      <position height="96" width="0" x="0" y="101"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="24" width="0" x="0" y="149"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="com.ebr.app.user.OMSUserController" project="EBRClient" 
+    file="/EBRClient/src/com/ebr/app/user/OMSUserController.java" binary="false" label="omsUserController" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="406" y="0"/>    
+    <execution id="6">      
+      <position height="96" width="0" x="0" y="248"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="24" width="0" x="0" y="296"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="72" width="164" x="112" y="142"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="com.ebr.components.returnvehicle.controller.RentVehiclePageController" 
+    project="EBRClient" file="/EBRClient/src/com/ebr/components/returnvehicle/controller/RentVehiclePageController.java" 
+    binary="false" label="rentVehiclePageController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="616" y="0"/>    
+    <execution id="11">      
+      <position height="24" width="250" x="280" y="166"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="72" width="250" x="280" y="270"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="72" width="250" x="280" y="388"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="com.ebr.components.media.gui.RentVehicleSearchPane" project="EBRClient" 
+    file="/EBRClient/src/com/ebr/components/media/gui/RentVehicleSearchPane.java" binary="false" 
+    label="rentVehicleSearchPane" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="691" y="0"/>    
+    <execution id="15">      
+      <position height="24" width="194" x="534" y="294"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="com.ebr.components.media.gui.RentVehicleSinglePane" project="EBRClient" 
+    file="/EBRClient/src/com/ebr/components/media/gui/RentVehicleSinglePane.java" binary="false" 
+    label="rentVehicleSinglePane" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="814" y="0"/>    
+    <execution id="18">      
+      <position height="24" width="189" x="732" y="412"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="EBRUser(com.ebr.app.user.EBRUserController)" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="getRentVehiclePage():javax.swing.JPanel" asynchronous="false" x="203" y="251">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="RentVehiclePageController()" asynchronous="false">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="14" operation="RentVehicleSearchPane()" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="17" operation="RentVehicleSinglePane()" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>
+</sequence-diagram>

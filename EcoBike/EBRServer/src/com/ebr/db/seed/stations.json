@@ -1,0 +1,35 @@
+[
+    {
+        "stationId": "st1",
+        "stationName": "Bãi xe 1",
+        "stationAddress": "Tân Mai, Hà Nội",
+        "numberBikes": 1,
+        "numberEBikes": 1,
+        "numberTwinBikes": 1,
+        "numberEmptyDocks": 8,
+        "stationDistance": 100,
+        "stationTime": 12.0
+    },
+    {
+        "stationId": "st2",
+        "stationName": "Bãi xe 2",
+        "stationAddress": "Lê Thanh Nghị, Hà Nội",
+        "numberBikes": 1,
+        "numberEBikes": 1,
+        "numberTwinBikes": 1,
+        "numberEmptyDocks": 0,
+        "stationDistance": 120,
+        "stationTime": 15.0
+    },
+    {
+        "stationId": "st3",
+        "stationName": "Bãi xe 3",
+        "stationAddress": "Thái Hà, Hà Nội",
+        "numberBikes": 1,
+        "numberEBikes": 1,
+        "numberTwinBikes": 1,
+        "numberEmptyDocks": 10,
+        "stationDistance": 10,
+        "stationTime": 1.0
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "rentId": "rent1",
+    "bikeId": "bike1",
+    "userId": "user1",
+    "bikeType": "EBIKE",
+    "deposit": "100000",
+    "rentTime": null,
+    "status": true
+  }
+]

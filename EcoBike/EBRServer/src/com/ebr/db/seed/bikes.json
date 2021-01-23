@@ -1,0 +1,47 @@
+[
+  {
+    "id" : "ebike2",
+    "name" : "ebike2",
+    "bikeType" : "EBIKE",
+    "weight" : 10,
+    "licensePlate" : "ABCD",
+    "manufacturingDate" : 1,
+    "producer" : "pr",
+    "cost" : 123,
+    "status" : "EMPTY",
+    "stationId" : "st1",
+    "estimate" : 10,
+    "batteryPercentage" : 50,
+    "loadCycles" : 20
+  },
+  {
+    "id" : "ebike1",
+    "name" : "ebike1",
+    "bikeType" : "EBIKE",
+    "weight" : 120,
+    "licensePlate" : "ABCDdaca",
+    "manufacturingDate" : 1,
+    "producer" : "pr",
+    "cost" : 123,
+    "status" : "EMPTY",
+    "stationId" : "st2",
+    "estimate" : 10,
+    "batteryPercentage" : 50,
+    "loadCycles" : 20
+  },
+  {
+    "id" : "ebike3",
+    "name" : "ebike3",
+    "bikeType" : "EBIKE",
+    "weight" : 14,
+    "licensePlate" : "ABCDfsf",
+    "manufacturingDate" : 1,
+    "producer" : "pr",
+    "cost" : 1213,
+    "status" : "EMPTY",
+    "stationId" : "st1",
+    "estimate" : 10,
+    "batteryPercentage" : 50,
+    "loadCycles" : 20
+  }
+]

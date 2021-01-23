@@ -1,0 +1,21 @@
+[
+    {
+        "userId": "20173170",
+        "name": "Vu Quang Huy",
+        "idCard": "1001",
+        "accountBalance": "1000000"
+    },
+    {
+        "userId": "20173147",
+        "name": "Trinh Thi Hong",
+
+        "idCard": "1002",
+        "accountBalance": "132443232"
+    },
+    {        "userId": "20173330",
+        "name": "Le Xuan Quang",
+
+        "idCard": "1003",
+        "accountBalance": "10500000"
+    }
+]
